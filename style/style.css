@@ -8,12 +8,40 @@ body{
     background-size: cover;
 }
 
+.img-logo{
+    height: 90px;
+    margin-left: 45px;
+}
+
 .upper{
     background-color: rgba(0, 0, 0, 0.7);
-    min-height: 500px;
 }
 
 .bottom{
     background-color: rgba(0, 0, 0, 0.9);
-    min-height: 500px;
+}
+
+.login{
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 30px 60px 100px 60px;
+    
+}
+
+.login h1{
+    color: white;
+}
+
+.input-text input{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-text{
+    margin-bottom: 20px;
 }
