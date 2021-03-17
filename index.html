@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/logo.png">
     <title>Netflix</title>
 </head>
 <body>
@@ -21,21 +23,80 @@
                 <input type="password" placeholder="Password"/>
             </div>
             <div>
-                <button>Sign In</button>
+                <button class="signin-button">Sign In</button>
             </div>
-            <div>
+            <div class="remember-flex">
                 <div>
                     <input type="checkbox">
-                    <label>Remember me</label>
+                    <label class="color_text">Remember me</label>
                 </div>
-                <div>
-                    <a href="#">Need help?</a>
+                <div class="help">
+                    <a class="color_text" href="#">Need help?</a>
                 </div>
+            </div>
+            <div class="login-face">
+                <img src="img/fb-icon.png" height="20"/><a href="#" class="color_link log_face">Login with Facebook</a>
+            </div>
+            <div class="new-members">
+                New to Netflix? <a href="#" class="signup-link">Sign up now</a>.
+            </div>
+            <div class="protection color_link help">
+                This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
             </div>
         </form>
     </div>
     <div class="bottom">
-
+        <div class="bottom-width">
+            Questions? Call <a href="tel:1-844-542-4813" class="tel-link">1-844-542-4813</a>     
+            <div class="bottom-flex">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="link-bottom">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-bottom">
+                                Cookie Preferences
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="link-bottom">
+                                Help Center
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-bottom">
+                                Corporate information
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="link-bottom">
+                                Terms of Use
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="link-bottom">
+                                Privacy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

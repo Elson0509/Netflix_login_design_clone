@@ -6,6 +6,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .img-logo{
@@ -14,11 +15,47 @@ body{
 }
 
 .upper{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 100px;
 }
 
 .bottom{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #757575;
+}
+
+.bottom-width{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.bottom-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.bottom-flex div ul{
+    margin: 0;    
+    padding: 0;
+    
+}
+
+.bottom-flex div ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.link-bottom{
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.9rem;
+}
+
+.link-bottom:hover{
+    text-decoration: underline;
+    
 }
 
 .login{
@@ -26,7 +63,7 @@ body{
     width: 300px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
-    padding: 30px 60px 100px 60px;
+    padding: 30px 70px 143px 70px;
     
 }
 
@@ -36,12 +73,102 @@ body{
 
 .input-text input{
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: #333;
     color: white;
     border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
 }
 
-.input-text{
-    margin-bottom: 20px;
+.input-text input::placeholder{
+    font-size: 1rem;
+    color: #999;
+    padding-left: 15px;
+}
+
+.signin-button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+    border:none;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.remember-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.color_text{
+    color: #b3b3b3;
+}
+
+.color_link{
+    color: #737373;
+}
+
+.signup-link{
+    color: white;
+    text-decoration: none;
+}
+
+.signup-link:hover{
+    text-decoration: underline;
+}
+
+.face_icon{
+    color: #3b5998;
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+.log_face{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.login-face{
+    margin: 50px 0 15px 0;
+    vertical-align: middle;
+    color: #8c8c8c;
+}
+
+.new-members{
+    margin-bottom: 10px;
+    
+    color: #8c8c8c;
+}
+
+.help a:hover{
+    text-decoration: underline;
+}
+
+.protection{
+    font-size: 0.8rem;
+    color: #8c8c8c;
+}
+
+.protection a{
+    text-decoration: none;
+}
+
+.protection a:hover{
+    text-decoration: underline;
+}
+
+.tel-link{
+    text-decoration: none;
+    color: #757575;
+}
+
+.tel-link:hover{
+    text-decoration: underline;
 }
