@@ -25,32 +25,32 @@ body{
 }
 
 .bottom-width{
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
     padding: 30px;
 }
 
 .bottom-flex{
     display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
+    flex-wrap: wrap;
+    padding: 15px 0 0 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
-.bottom-flex div ul{
-    margin: 0;    
-    padding: 0;
-    
-}
-
-.bottom-flex div ul li{
+.bottom-flex li{
     list-style: none;
-    margin-top: 15px;
+}
+
+.list-bottom{
+    width: 25%;
+    margin-top: 10px;
 }
 
 .link-bottom{
     text-decoration: none;
     color: #757575;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .link-bottom:hover{
