@@ -82,10 +82,17 @@ body{
     margin-bottom: 20px;
 }
 
-.input-text input::placeholder{
+.input-text input::-webkit-input-placeholder {
     font-size: 1rem;
     color: #999;
     padding-left: 15px;
+}
+
+.input-text input::-moz-placeholder {
+    font-size: 1rem;
+    color: #999;
+    padding-left: 15px;
+    text-indent: 40px;
 }
 
 .signin-button{
