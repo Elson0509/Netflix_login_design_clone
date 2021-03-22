@@ -72,26 +72,29 @@ body{
     padding-bottom: 10px;
 }
 
+.input-text{
+    margin-bottom: 20px;
+}
+
 .input-text input{
-    width: 100%;
+    width: 93%;
     height: 45px;
     background-color: #333;
     color: white;
     border-radius: 5px;
     border: none;
-    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .input-text input::-webkit-input-placeholder {
     font-size: 1rem;
     color: #999;
-    padding-left: 15px;
+    
 }
 
 .input-text input::-moz-placeholder {
     font-size: 1rem;
     color: #999;
-    padding-left: 15px;
     text-indent: 40px;
 }
 
@@ -105,6 +108,7 @@ body{
     border:none;
     font-weight: bold;
     font-size: 1.05rem;
+    cursor: pointer;
 }
 
 .remember-flex{
@@ -125,6 +129,14 @@ body{
 .signup-link{
     color: white;
     text-decoration: none;
+}
+
+.warning-input{
+    display: none;
+    color:#e87c03;
+    margin-top: 0;
+    font-size: 0.8rem;
+    margin-top: 6px;
 }
 
 .signup-link:hover{
@@ -155,6 +167,9 @@ body{
     color: #8c8c8c;
 }
 
+.help a{
+    text-decoration: none;
+}
 .help a:hover{
     text-decoration: underline;
 }
