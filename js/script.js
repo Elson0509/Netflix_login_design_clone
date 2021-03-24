@@ -9,7 +9,6 @@ const warningEmail = document.getElementById("warningEmail")
 const warningPassword = document.getElementById("warningPassword")
 
 const inputOnBlur = (ev) =>{
-    
     if(inputTouched.email){
         if(!validateEmail(inputEmail.value) && !validatePhone(inputEmail.value)){
             warningEmail.style.display="block"
@@ -30,13 +29,10 @@ const inputOnBlur = (ev) =>{
             inputPassword.style.borderBottom="none"
         }
     }
-    
-    
 }
 
 const inputOnFocus = (ev) =>{
     inputTouched[ev.name] = true;
-    console.log(inputTouched)
 }
 
 const validateEmail = email => {
